@@ -70,19 +70,19 @@ call_translation_pipeline/
 Single Call ID
 
 ```bash
-python call_translate.py 293243941
+python call_translate.py ********
 ```
 
 Multiple Call IDs
 
 ```bash
-python call_translate.py 293243941,293243942,293243943
+python call_translate.py 
 ```
 ## Example Output
 
 ```json
 {
-    "call_id": "293243941",
+    "call_id": "********",
     "language": "fr",
     "transcript": "Bonjour, bienvenue chez Condor...",
     "translation": "Hello, welcome to Condor...",
